@@ -17,3 +17,19 @@ The Airbnb Clone Project is a real WORLD application designed to simulate the de
   fetching.
 - Docker: For containerization, ensuring consistent development and deployment environments.
 
+# Team roles
+-Backend Developer:
+  Responsible for designing, building, and maintaining the backend logic and APIs. Ensures robust application performance and data management.
+- Database Administrator :
+  Focuses on designing and managing the database structure, ensuring data integrity, and optimizing database performance.
+- DevOps Engineer:
+  Sets up and manages CI/CD pipelines, automates deployments, and ensures system scalability using tools like Docker.
+- Project Manager:
+  Oversees project timelines and ensures collaboration among team members and to achieve project goals effectively.
+
+  
+
+  
+
+
+
