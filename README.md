@@ -99,6 +99,26 @@ To ensure the security, we use:
 -Secure Payment Processing
    Payments will be processed through credible third-party services(ie PayPal) to ensure security during transactions. Payment details will not be stored on the platform.
 
+# CI/CD Pipeline
+
+1. Continuous Integration (CI)  
+With CI, every time a developer pushes new code to the repository, automated tests will be done by itself.Ennsures that new changes don’t break existing functionality.(Github actions, CircleCI)
+
+2. Continuous Deployment (CD)  
+Once code is tested well, it is automatically deployed to the production environment, ensuring that the latest features or bug fixes are available to users.(Docker, Heroku,etc)
+
+They will include:
+
+Automated Testing:
+Automated tests will run during the CI to ensure the code is functioning the way it shouod before deployment. This can be done using testing frameworks like PyTest or Jest.
+
+Version Control Integration:
+Every push to the GitHub repository will trigger the CI/CD pipeline, ensuring that all code changes are automatically tested and deployed.
+
+Checking:
+Monitoring tools will track deployments and app performance. If any issues arise, the pipeline will support automatic rollback to the previous stable version.
+
+
    
 
 
