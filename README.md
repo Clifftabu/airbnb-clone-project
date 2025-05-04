@@ -80,6 +80,29 @@ Payment Integration
 Searching and filtering
 Users can search for properties by location, date, price range, and other criteria to find the perfect stay.
 
+# API Security
+
+To ensure the security, we use:
+
+-Authentication  
+   Users must authenticate themselves using secure login mechanisms, such as JWT (JSON Web Tokens) or OAuth, ensuring only authorized users can access certain parts of the application.
+
+-Authorization  
+   After authentication, users are granted specific access based on their role (e.g, guest or host). For example,only hosts can manage properties and only guests can make bookings.
+
+-Rate Limiting  
+   To protect against abuse or malicious attacks (ie brute force attacks). This limits the number of requests a user can make within a specified time.
+
+-Data Encryption  
+   All sensitive data, such as passwords and payment details, will be encrypted to prevent unauthorized access.
+
+-Secure Payment Processing
+   Payments will be processed through credible third-party services(ie PayPal) to ensure security during transactions. Payment details will not be stored on the platform.
+
+   
+
+
+
 
 
 
