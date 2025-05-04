@@ -68,7 +68,20 @@ Beloq are the entities' relationships:
 - A user can book multiple properties (one-to-many).
 - A booking is associated with one payment (one-to-one).
 
-#
+# Feature Breakdown
+ Users Management
+-Users can sign up, log in, and manage their profiles. Hosts and guests are assigned different roles to allow property listing and booking.
+Property Management
+-Hosts can list properties with details like location, price, and availability. They can also update or evem remove their listings.
+Booking System
+-Guests can search for properties, view if available, and book them for specific dates. Bookings are tracked in the system for both guests and hosts.
+Payment Integration
+-payment processing is included for guests to pay for booking. Payment statuses are tracked directly.
+Searching and filtering
+Users can search for properties by location, date, price range, and other criteria to find the perfect stay.
+
+
+
 
 
 
