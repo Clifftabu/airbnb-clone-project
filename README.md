@@ -34,6 +34,46 @@ The Airbnb Clone Project is a real WORLD application designed to simulate the de
   fetching.
 - Docker: For containerization, ensuring consistent development and deployment environments.
 
+# Database Design
+The key entities are:
+1. Users:
+   - id (Primary Key)
+   - name
+   - email
+   - password (encrypted)
+   - role (e.g., guest, host)
+2. Properties:
+   - id (Primary Key)
+   - name
+   - location
+   - description
+   - price_per_night
+   - host_id (Foreign Key referencing Users)
+3. Bookings:
+   - id (Primary Key)
+   - property_id (Foreign Key referencing Properties)
+   - user_id (Foreign Key referencing Users)
+   - start_date
+   - end_date
+   - total_price
+4. Payments:
+   - id (Primary Key)
+   - booking_id (Foreign Key referencing Bookings)
+   - amount
+   - payment_date
+   - payment_status
+Beloq are the entities' relationships:
+- A user can own multiple properties (one-to-many).
+- A property can have multiple bookings (one-to-many).
+- A user can book multiple properties (one-to-many).
+- A booking is associated with one payment (one-to-one).
+
+#
+
+
+
+
+
 
 
 
